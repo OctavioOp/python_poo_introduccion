@@ -28,11 +28,11 @@ juanin = User('Juanin Juan Harry', 'jujuha.asd@asd')
 #print(carlitos.name, carlitos.email)
 #print(juanin.name, juanin.email)
 #movimientos///////////////////////////////////////////
-carlitos.make_deposit(5000).display_user_balance()
-juanin.make_deposit(100).display_user_balance()
+carlitos.make_deposit(5000).make_withdrawal(1000).display_user_balance()
+juanin.make_deposit(100).make_deposit(900).display_user_balance()
 print('--momento--transferencia--')
 carlitos.transfer_money(juanin, 2000)
-juanin.display_user_balance()
 carlitos.display_user_balance()
+juanin.display_user_balance()
 
 
