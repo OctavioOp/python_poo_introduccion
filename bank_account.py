@@ -1,3 +1,4 @@
+import random
 class bankAccount:
     def __init__(self, intRate=0.01, balance=0):
         self.intRate = intRate
@@ -26,3 +27,4 @@ class bankAccount:
 #newAccount = bankAccount()
 # newAccount.deposit(5000).yield_interest().display_account_info()
 # newAccount.withdraw(3000).display_account_info()
+
